@@ -1,0 +1,6 @@
+framework module Pods_Milford_TrailTests {
+  umbrella header "Pods-Milford TrailTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

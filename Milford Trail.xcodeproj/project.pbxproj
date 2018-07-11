@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79C743F03B780D456DEC482B /* Pods_Milford_TrailTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5ABAE81C861159E73EF586 /* Pods_Milford_TrailTests.framework */; };
+		AA643D8F0705E6399496AFBC /* Pods_Milford_TrailUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF54C78961786CFA2BA7DA5B /* Pods_Milford_TrailUITests.framework */; };
+		B3C9714F3F2657464EE97A16 /* Pods_Milford_Trail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B02F18938FDE5BDB884931 /* Pods_Milford_Trail.framework */; };
 		CFAE279120F5A8BC0039003D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE279020F5A8BC0039003D /* AppDelegate.swift */; };
 		CFAE279320F5A8BC0039003D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE279220F5A8BC0039003D /* ViewController.swift */; };
 		CFAE279620F5A8BC0039003D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAE279420F5A8BC0039003D /* Main.storyboard */; };
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		227C9A2C442BD88A70E842C4 /* Pods-Milford TrailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milford TrailTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Milford TrailTests/Pods-Milford TrailTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CD7F312EA4D0F82AD284B0D /* Pods-Milford TrailUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milford TrailUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Milford TrailUITests/Pods-Milford TrailUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48B02F18938FDE5BDB884931 /* Pods_Milford_Trail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Milford_Trail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BE6E37A11425B472FCE3D1 /* Pods-Milford TrailUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milford TrailUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Milford TrailUITests/Pods-Milford TrailUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92D5FDC475CF349755BBDF4C /* Pods-Milford Trail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milford Trail.release.xcconfig"; path = "Pods/Target Support Files/Pods-Milford Trail/Pods-Milford Trail.release.xcconfig"; sourceTree = "<group>"; };
+		A8E6E7286E22F16B85C0572E /* Pods-Milford TrailTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milford TrailTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Milford TrailTests/Pods-Milford TrailTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC5E5952DB92127A09C3DF06 /* Pods-Milford Trail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milford Trail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Milford Trail/Pods-Milford Trail.debug.xcconfig"; sourceTree = "<group>"; };
+		BF5ABAE81C861159E73EF586 /* Pods_Milford_TrailTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Milford_TrailTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFAE278D20F5A8BC0039003D /* Milford Trail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Milford Trail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFAE279020F5A8BC0039003D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFAE279220F5A8BC0039003D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		CFAE27AF20F5A8BE0039003D /* Milford TrailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Milford TrailUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFAE27B320F5A8BE0039003D /* Milford_TrailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milford_TrailUITests.swift; sourceTree = "<group>"; };
 		CFAE27B520F5A8BE0039003D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF54C78961786CFA2BA7DA5B /* Pods_Milford_TrailUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Milford_TrailUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C9714F3F2657464EE97A16 /* Pods_Milford_Trail.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C743F03B780D456DEC482B /* Pods_Milford_TrailTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA643D8F0705E6399496AFBC /* Pods_Milford_TrailUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6ED0A5FCD4BC25DFBE496CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC5E5952DB92127A09C3DF06 /* Pods-Milford Trail.debug.xcconfig */,
+				92D5FDC475CF349755BBDF4C /* Pods-Milford Trail.release.xcconfig */,
+				227C9A2C442BD88A70E842C4 /* Pods-Milford TrailTests.debug.xcconfig */,
+				A8E6E7286E22F16B85C0572E /* Pods-Milford TrailTests.release.xcconfig */,
+				67BE6E37A11425B472FCE3D1 /* Pods-Milford TrailUITests.debug.xcconfig */,
+				2CD7F312EA4D0F82AD284B0D /* Pods-Milford TrailUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CFAE278420F5A8BC0039003D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				CFAE27A720F5A8BE0039003D /* Milford TrailTests */,
 				CFAE27B220F5A8BE0039003D /* Milford TrailUITests */,
 				CFAE278E20F5A8BC0039003D /* Products */,
+				B6ED0A5FCD4BC25DFBE496CB /* Pods */,
+				DDFF6371BF0EE1A27D5B8124 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = "Milford TrailUITests";
 			sourceTree = "<group>";
 		};
+		DDFF6371BF0EE1A27D5B8124 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48B02F18938FDE5BDB884931 /* Pods_Milford_Trail.framework */,
+				BF5ABAE81C861159E73EF586 /* Pods_Milford_TrailTests.framework */,
+				FF54C78961786CFA2BA7DA5B /* Pods_Milford_TrailUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFAE27B820F5A8BE0039003D /* Build configuration list for PBXNativeTarget "Milford Trail" */;
 			buildPhases = (
+				DF0BE1137CFEE802D9750C2F /* [CP] Check Pods Manifest.lock */,
 				CFAE278920F5A8BC0039003D /* Sources */,
 				CFAE278A20F5A8BC0039003D /* Frameworks */,
 				CFAE278B20F5A8BC0039003D /* Resources */,
+				60208E5D438960F2666144EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFAE27BB20F5A8BE0039003D /* Build configuration list for PBXNativeTarget "Milford TrailTests" */;
 			buildPhases = (
+				75C11A1904107155C40DF50A /* [CP] Check Pods Manifest.lock */,
 				CFAE27A020F5A8BE0039003D /* Sources */,
 				CFAE27A120F5A8BE0039003D /* Frameworks */,
 				CFAE27A220F5A8BE0039003D /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFAE27BE20F5A8BE0039003D /* Build configuration list for PBXNativeTarget "Milford TrailUITests" */;
 			buildPhases = (
+				2915FF6C39D0F5A4D16975BE /* [CP] Check Pods Manifest.lock */,
 				CFAE27AB20F5A8BE0039003D /* Sources */,
 				CFAE27AC20F5A8BE0039003D /* Frameworks */,
 				CFAE27AD20F5A8BE0039003D /* Resources */,
@@ -253,6 +297,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2915FF6C39D0F5A4D16975BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Milford TrailUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60208E5D438960F2666144EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Milford Trail/Pods-Milford Trail-frameworks.sh",
+				"${PODS_ROOT}/KontaktSDK/Cocoapods/iOS/KontaktSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KontaktSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Milford Trail/Pods-Milford Trail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75C11A1904107155C40DF50A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Milford TrailTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF0BE1137CFEE802D9750C2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Milford Trail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CFAE278920F5A8BC0039003D /* Sources */ = {
@@ -432,6 +551,7 @@
 		};
 		CFAE27B920F5A8BE0039003D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC5E5952DB92127A09C3DF06 /* Pods-Milford Trail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +570,7 @@
 		};
 		CFAE27BA20F5A8BE0039003D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D5FDC475CF349755BBDF4C /* Pods-Milford Trail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +589,7 @@
 		};
 		CFAE27BC20F5A8BE0039003D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227C9A2C442BD88A70E842C4 /* Pods-Milford TrailTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +611,7 @@
 		};
 		CFAE27BD20F5A8BE0039003D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E6E7286E22F16B85C0572E /* Pods-Milford TrailTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +633,7 @@
 		};
 		CFAE27BF20F5A8BE0039003D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BE6E37A11425B472FCE3D1 /* Pods-Milford TrailUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +654,7 @@
 		};
 		CFAE27C020F5A8BE0039003D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD7F312EA4D0F82AD284B0D /* Pods-Milford TrailUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
