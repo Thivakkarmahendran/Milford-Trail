@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFAE279120F5A8BC0039003D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE279020F5A8BC0039003D /* AppDelegate.swift */; };
+		CFAE279320F5A8BC0039003D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE279220F5A8BC0039003D /* ViewController.swift */; };
+		CFAE279620F5A8BC0039003D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAE279420F5A8BC0039003D /* Main.storyboard */; };
+		CFAE279920F5A8BC0039003D /* Milford_Trail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFAE279720F5A8BC0039003D /* Milford_Trail.xcdatamodeld */; };
+		CFAE279B20F5A8BE0039003D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAE279A20F5A8BE0039003D /* Assets.xcassets */; };
+		CFAE279E20F5A8BE0039003D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAE279C20F5A8BE0039003D /* LaunchScreen.storyboard */; };
+		CFAE27A920F5A8BE0039003D /* Milford_TrailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE27A820F5A8BE0039003D /* Milford_TrailTests.swift */; };
+		CFAE27B420F5A8BE0039003D /* Milford_TrailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE27B320F5A8BE0039003D /* Milford_TrailUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFAE27A520F5A8BE0039003D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFAE278520F5A8BC0039003D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFAE278C20F5A8BC0039003D;
+			remoteInfo = "Milford Trail";
+		};
+		CFAE27B020F5A8BE0039003D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFAE278520F5A8BC0039003D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFAE278C20F5A8BC0039003D;
+			remoteInfo = "Milford Trail";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFAE278D20F5A8BC0039003D /* Milford Trail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Milford Trail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAE279020F5A8BC0039003D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFAE279220F5A8BC0039003D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFAE279520F5A8BC0039003D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFAE279820F5A8BC0039003D /* Milford_Trail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Milford_Trail.xcdatamodel; sourceTree = "<group>"; };
+		CFAE279A20F5A8BE0039003D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFAE279D20F5A8BE0039003D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFAE279F20F5A8BE0039003D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAE27A420F5A8BE0039003D /* Milford TrailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Milford TrailTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAE27A820F5A8BE0039003D /* Milford_TrailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milford_TrailTests.swift; sourceTree = "<group>"; };
+		CFAE27AA20F5A8BE0039003D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAE27AF20F5A8BE0039003D /* Milford TrailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Milford TrailUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAE27B320F5A8BE0039003D /* Milford_TrailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milford_TrailUITests.swift; sourceTree = "<group>"; };
+		CFAE27B520F5A8BE0039003D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFAE278A20F5A8BC0039003D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAE27A120F5A8BE0039003D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAE27AC20F5A8BE0039003D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFAE278420F5A8BC0039003D = {
+			isa = PBXGroup;
+			children = (
+				CFAE278F20F5A8BC0039003D /* Milford Trail */,
+				CFAE27A720F5A8BE0039003D /* Milford TrailTests */,
+				CFAE27B220F5A8BE0039003D /* Milford TrailUITests */,
+				CFAE278E20F5A8BC0039003D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFAE278E20F5A8BC0039003D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFAE278D20F5A8BC0039003D /* Milford Trail.app */,
+				CFAE27A420F5A8BE0039003D /* Milford TrailTests.xctest */,
+				CFAE27AF20F5A8BE0039003D /* Milford TrailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFAE278F20F5A8BC0039003D /* Milford Trail */ = {
+			isa = PBXGroup;
+			children = (
+				CFAE279020F5A8BC0039003D /* AppDelegate.swift */,
+				CFAE279220F5A8BC0039003D /* ViewController.swift */,
+				CFAE279420F5A8BC0039003D /* Main.storyboard */,
+				CFAE279A20F5A8BE0039003D /* Assets.xcassets */,
+				CFAE279C20F5A8BE0039003D /* LaunchScreen.storyboard */,
+				CFAE279F20F5A8BE0039003D /* Info.plist */,
+				CFAE279720F5A8BC0039003D /* Milford_Trail.xcdatamodeld */,
+			);
+			path = "Milford Trail";
+			sourceTree = "<group>";
+		};
+		CFAE27A720F5A8BE0039003D /* Milford TrailTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFAE27A820F5A8BE0039003D /* Milford_TrailTests.swift */,
+				CFAE27AA20F5A8BE0039003D /* Info.plist */,
+			);
+			path = "Milford TrailTests";
+			sourceTree = "<group>";
+		};
+		CFAE27B220F5A8BE0039003D /* Milford TrailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFAE27B320F5A8BE0039003D /* Milford_TrailUITests.swift */,
+				CFAE27B520F5A8BE0039003D /* Info.plist */,
+			);
+			path = "Milford TrailUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFAE278C20F5A8BC0039003D /* Milford Trail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAE27B820F5A8BE0039003D /* Build configuration list for PBXNativeTarget "Milford Trail" */;
+			buildPhases = (
+				CFAE278920F5A8BC0039003D /* Sources */,
+				CFAE278A20F5A8BC0039003D /* Frameworks */,
+				CFAE278B20F5A8BC0039003D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Milford Trail";
+			productName = "Milford Trail";
+			productReference = CFAE278D20F5A8BC0039003D /* Milford Trail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFAE27A320F5A8BE0039003D /* Milford TrailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAE27BB20F5A8BE0039003D /* Build configuration list for PBXNativeTarget "Milford TrailTests" */;
+			buildPhases = (
+				CFAE27A020F5A8BE0039003D /* Sources */,
+				CFAE27A120F5A8BE0039003D /* Frameworks */,
+				CFAE27A220F5A8BE0039003D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFAE27A620F5A8BE0039003D /* PBXTargetDependency */,
+			);
+			name = "Milford TrailTests";
+			productName = "Milford TrailTests";
+			productReference = CFAE27A420F5A8BE0039003D /* Milford TrailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFAE27AE20F5A8BE0039003D /* Milford TrailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAE27BE20F5A8BE0039003D /* Build configuration list for PBXNativeTarget "Milford TrailUITests" */;
+			buildPhases = (
+				CFAE27AB20F5A8BE0039003D /* Sources */,
+				CFAE27AC20F5A8BE0039003D /* Frameworks */,
+				CFAE27AD20F5A8BE0039003D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFAE27B120F5A8BE0039003D /* PBXTargetDependency */,
+			);
+			name = "Milford TrailUITests";
+			productName = "Milford TrailUITests";
+			productReference = CFAE27AF20F5A8BE0039003D /* Milford TrailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFAE278520F5A8BC0039003D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Thivakkar Mahendran";
+				TargetAttributes = {
+					CFAE278C20F5A8BC0039003D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CFAE27A320F5A8BE0039003D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CFAE278C20F5A8BC0039003D;
+					};
+					CFAE27AE20F5A8BE0039003D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CFAE278C20F5A8BC0039003D;
+					};
+				};
+			};
+			buildConfigurationList = CFAE278820F5A8BC0039003D /* Build configuration list for PBXProject "Milford Trail" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFAE278420F5A8BC0039003D;
+			productRefGroup = CFAE278E20F5A8BC0039003D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFAE278C20F5A8BC0039003D /* Milford Trail */,
+				CFAE27A320F5A8BE0039003D /* Milford TrailTests */,
+				CFAE27AE20F5A8BE0039003D /* Milford TrailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFAE278B20F5A8BC0039003D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAE279E20F5A8BE0039003D /* LaunchScreen.storyboard in Resources */,
+				CFAE279B20F5A8BE0039003D /* Assets.xcassets in Resources */,
+				CFAE279620F5A8BC0039003D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAE27A220F5A8BE0039003D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAE27AD20F5A8BE0039003D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFAE278920F5A8BC0039003D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAE279920F5A8BC0039003D /* Milford_Trail.xcdatamodeld in Sources */,
+				CFAE279320F5A8BC0039003D /* ViewController.swift in Sources */,
+				CFAE279120F5A8BC0039003D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAE27A020F5A8BE0039003D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAE27A920F5A8BE0039003D /* Milford_TrailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAE27AB20F5A8BE0039003D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAE27B420F5A8BE0039003D /* Milford_TrailUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFAE27A620F5A8BE0039003D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFAE278C20F5A8BC0039003D /* Milford Trail */;
+			targetProxy = CFAE27A520F5A8BE0039003D /* PBXContainerItemProxy */;
+		};
+		CFAE27B120F5A8BE0039003D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFAE278C20F5A8BC0039003D /* Milford Trail */;
+			targetProxy = CFAE27B020F5A8BE0039003D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFAE279420F5A8BC0039003D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAE279520F5A8BC0039003D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFAE279C20F5A8BE0039003D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAE279D20F5A8BE0039003D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFAE27B620F5A8BE0039003D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFAE27B720F5A8BE0039003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFAE27B920F5A8BE0039003D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TMS2ETJQ7M;
+				INFOPLIST_FILE = "Milford Trail/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mthivakkar.Test.Milford-Trail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFAE27BA20F5A8BE0039003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TMS2ETJQ7M;
+				INFOPLIST_FILE = "Milford Trail/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mthivakkar.Test.Milford-Trail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFAE27BC20F5A8BE0039003D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TMS2ETJQ7M;
+				INFOPLIST_FILE = "Milford TrailTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mthivakkar.Test.Milford-TrailTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milford Trail.app/Milford Trail";
+			};
+			name = Debug;
+		};
+		CFAE27BD20F5A8BE0039003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TMS2ETJQ7M;
+				INFOPLIST_FILE = "Milford TrailTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mthivakkar.Test.Milford-TrailTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milford Trail.app/Milford Trail";
+			};
+			name = Release;
+		};
+		CFAE27BF20F5A8BE0039003D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TMS2ETJQ7M;
+				INFOPLIST_FILE = "Milford TrailUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mthivakkar.Test.Milford-TrailUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Milford Trail";
+			};
+			name = Debug;
+		};
+		CFAE27C020F5A8BE0039003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TMS2ETJQ7M;
+				INFOPLIST_FILE = "Milford TrailUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mthivakkar.Test.Milford-TrailUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Milford Trail";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFAE278820F5A8BC0039003D /* Build configuration list for PBXProject "Milford Trail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAE27B620F5A8BE0039003D /* Debug */,
+				CFAE27B720F5A8BE0039003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAE27B820F5A8BE0039003D /* Build configuration list for PBXNativeTarget "Milford Trail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAE27B920F5A8BE0039003D /* Debug */,
+				CFAE27BA20F5A8BE0039003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAE27BB20F5A8BE0039003D /* Build configuration list for PBXNativeTarget "Milford TrailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAE27BC20F5A8BE0039003D /* Debug */,
+				CFAE27BD20F5A8BE0039003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAE27BE20F5A8BE0039003D /* Build configuration list for PBXNativeTarget "Milford TrailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAE27BF20F5A8BE0039003D /* Debug */,
+				CFAE27C020F5A8BE0039003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFAE279720F5A8BC0039003D /* Milford_Trail.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFAE279820F5A8BC0039003D /* Milford_Trail.xcdatamodel */,
+			);
+			currentVersion = CFAE279820F5A8BC0039003D /* Milford_Trail.xcdatamodel */;
+			path = Milford_Trail.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFAE278520F5A8BC0039003D /* Project object */;
+}
